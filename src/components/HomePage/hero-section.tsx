@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button"
+
 import { ArrowRightIcon, SparkleIcon } from "@phosphor-icons/react"
+import { Button } from "../ui/button"
 
 
 function HeroSection() {

@@ -1,5 +1,7 @@
-import { Button } from "@/components/ui/button"
+
 import Brand  from "@/components/shared/brand"
+import { Button } from "../ui/button"
+
 
 
 function Navbar(){
@@ -20,14 +22,14 @@ function Navbar(){
 
         <div>
 
+
           <Button variant={'ghost'} size="lg" asChild>
             <a href="/login">Entrar</a>
           </Button>
           <Button size={"lg"} asChild>
             <a href="/registrar">Criar Conta</a>
           </Button>
-
-
+          
         </div>
       </nav>
     </header>
