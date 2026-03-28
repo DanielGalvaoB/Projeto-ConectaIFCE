@@ -1,4 +1,5 @@
 import Navbar from "./components/shared/navbar"
+import Footer from "./components/shared/footer"
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         Conteúdo Principal
       </main>
       <footer>
-        Rodapé
+        <Footer/>
       </footer>
 
     </div>
